@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Jogo tic-tac-toe(Jogo da Velha) criado com react.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O jogo conta com um sistema co-op onde é preciso duas pessoas para jogar alternando entre X e O
+
+Todo o controle de variaveis e dados globais foram gerenciados usando o useState do React.
 
 ## Available Scripts
 
