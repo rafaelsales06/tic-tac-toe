@@ -1,0 +1,62 @@
+.home{
+    width: 150px;
+    height: 150px;
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    text-align: 'center';
+    flex-direction: 'row';
+    cursor: 'pointer';
+    font-size: 120px;
+    color: #ffd195;
+}
+.tabLine{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.tab{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title{
+  font-family: 'Climate Crisis', cursive;
+  font-size: 1.9em;
+}
+
+.linewall{
+  height: 140px;
+}
+
+.linefloor{
+  width: 500px;
+}
+
+.restartbutton{
+  font-size: 1.1em;
+  padding: 10px 50px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+  background: rgb(3,52,249);
+  background: linear-gradient(180deg, rgba(3,52,249,1) 0%, rgba(15,100,170,1) 0%, rgba(1,27,97,1) 100%);
+}
+
+
+@media (max-width:600px) {
+  .home{
+      width: 80px;
+      height: 80px;
+      font-size: 80px;
+  }
+  .linewall{
+    height: 80px;
+  }
+  
+  .linefloor{
+    width: 300px;
+  }
+}
